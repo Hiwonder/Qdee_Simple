@@ -10,10 +10,7 @@
         "README.md",
         "main.ts",
         "QdeeRGBLight.ts",
-        "sendbuffer.asm",
-        "_locales/zh/qdee-strings.json",
-        "_locales/zh/qdee-jsdoc-strings.json",
-        "_locales/ko/qdee-strings.json"
+        "sendbuffer.asm"
     ],
     "testFiles": [
         "test.ts"
