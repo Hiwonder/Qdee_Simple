@@ -1,8 +1,8 @@
 /*
- qdee package
+ qdee_simple package
 */
 //% weight=10 icon="\uf013" color=#2896ff
-namespace qdee {
+namespace qdee_simple {
 
     export enum qdee_Colors {
         //% block="Red"
