@@ -4,30 +4,6 @@
 //% weight=10 icon="\uf013" color=#2896ff
 namespace qdee_simple {
 
-    export enum qdee_Colors {
-        //% block="Red"
-        Red = 0x01,
-        //% block="Green"
-        Green = 0x02,
-        //% block="Blue"
-        Blue = 0x03,
-        //% block="Black"
-        Black = 0x04,
-        //% block="White"
-        White = 0x05,
-        //% block="None"
-        None = 0x06
-    }
-
-    export enum qdee_RGBValue {
-        //% block="Red"
-        Red = 0x01,
-        //% block="Green"
-        Green = 0x02,
-        //% block="Blue"
-        Blue = 0x03  
-    }
-
     export enum extPins {
         //% block="PA6"
         pa6 = 0x06,
@@ -45,31 +21,6 @@ namespace qdee_simple {
         pc13 = 0x23
     }
 
-    export enum qdee_lineFollower {
-        //% blockId="S1_OUT_S2_OUT" block="Sensor1 and sensor2 are out black line"
-        S1_OUT_S2_OUT = 0x00,
-        //% blockId="S1_OUT_S2_IN" block="Sensor2 in black line but sensor1 not"
-        S1_OUT_S2_IN = 0x01,
-        //% blockId="S1_IN_S2_OUT" block="Sensor1 in black line but sensor2 not"
-        S1_IN_S2_OUT = 0x02,
-        //% blockId="S1_IN_S2_IN" block="Sensor1 and sensor2 are in black line "
-        S1_IN_S2_IN = 0x03
-    }
-
-    export enum colorSensorPort {
-        //% block="Port 4"
-        port4 = 0x04,
-        //% block="Port 9"
-        port9 = 0x09
-    }
-
-    export enum fanPort {
-        //% block="Port 1"
-        port1 = 0x01,
-        //% block="Port 2"
-        port2 = 0x02,
-    }
-
     export enum Servos {
         //% block="servo 1"
         Servo1 = 0x01,
@@ -84,45 +35,9 @@ namespace qdee_simple {
         port2 = 0x02
     }
 
-    export enum lightbeltPort {
-        //% block="Port 1"
-        port1 = 0x01,
-        //% block="Port 2"
-        port2 = 0x02,
-        //% block="Port 3"
-        port3 = 0x03
-    }
-
     export enum busServoPort {
         //% block="Port 10"
         port10 = 0x0A
-    }
-
-    export enum knobPort {
-        //% block="Port 1"
-        port1 = 0x01,
-        //% block="Port 6"
-        port6 = 0x06,
-        //% block="Port 8"
-        port8 = 0x08
-    }
-
-    export enum touchKeyPort {
-        //% block="Port 1"
-        port1 = 0x01,
-        //% block="Port 2"
-        port2 = 0x02,
-        //% block="Port 3"
-        port3 = 0x03,
-        //% block="Port 6"
-        port6 = 0x06,
-        //% block="Port 8"
-        port8 = 0x08
-    }
-
-    export enum lineFollowPort {
-        //% block="Port 1"
-        port1 = 0x01
     }
 
     export enum extAddress {
@@ -146,14 +61,6 @@ namespace qdee_simple {
         adress_9 = 0xF6,
         //% block="address 10"
         adress_10 = 0xF5
-    }
-
-
-    export enum LineFollowerSensor {
-        //% block="Sensor 1"
-        LFSensor_1 = 0x00,
-        //% block="Sensor 2"
-        LFSensor_2 = 0x01
     }
 
     export enum IRKEY {
